@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Hlavička na PC i mobilu (výtka z minulého kola je opravená jen zčásti): logo vlevo je pořád malé, asi 20 px na výšku. Šedé „dent“ a „you“ na krémovém pozadí skoro zaniká, takže to stále vypadá jako zvětšený favicon. Oprava: z hlavičky dent4you.sk stáhnout ostrou verzi loga (SVG nebo PNG ve 2× rozlišení), zobrazit ji ve výšce 36–44 px a šedé písmo ztmavit na čitelný kontrast vůči krémové.",
+    "Hero na PC (buňky 1–2): první obrazovka pořád nemá žádný obraz. Vpravo je jen karta s ordinačními hodinami a pod tlačítky zůstává asi 90 px prázdného krémového pásu před Ošetreniami. Oprava: fotku ambulance s křeslem, která je teď v sekci Moderné technológie, přesunout do pravé části hero za kartu s hodinami (karta ji může částečně překrývat) a mezeru pod tlačítky zmenšit na 40–56 px. Na mobilu dát fotku pod tlačítka, nad kartu s hodinami.",
+    "Moderné technológie (PC buňky 4–5, mobil 4–6): pod jednou fotkou zůstala tmavá textová mřížka s 8 přístroji. Na mobilu je z ní dlouhý tmavý sloupec textu přes tři obrazovky. Oprava: aspoň A-dec 500, Airflow, Diagnodent a Gendex RVG předělat na karty s fotkou přístroje ze stránky Technológie na dent4you.sk. Zbytek (Quicksleeper, Apexlokátor, autokláv, lampa Beyond) stačí jako krátký dvousloupcový seznam. Na mobilu karty dát do vodorovného posuvníku nebo zkrátit popisy na 1–2 řádky."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Ordinačné hodiny jako pruhový graf přímo v hero jsou vlastní nápad z reálných dat ambulance. Ihned je vidět, kdy ordinuje.",
+    "Šablonové prvky jsou pryč: Ošetrenia nemají číslování, nadtitul zůstal jen u hero a Ošetrení, místo šesti obdélníčků je v O nás jeden plynulý text se žlutou linkou vedle fotky a FAQ i ošetření mají stejný znak +.",
+    "Žlutá #dddc00 z brandu klienta drží celý web. Texty ošetření, technologií a FAQ vycházejí z webu kliniky. Kontakt (e-mail, telefony, parkování, formulář) je kompletní a na žádné šířce nic nepřetéká."
+  ],
+  "verdikt": "Šablonové prvky jsou opravené a fotky přibyly (ambulance, O nás). Logo je ale pořád slabé, hero zůstává bez obrazu a technologie jsou dál tmavá textová mřížka, takže web zatím nedosahuje na 8. Opravit.",
+  "_hash": "670928d88196fa8bc8b7d1652d5607f06e3fc5de"
+}

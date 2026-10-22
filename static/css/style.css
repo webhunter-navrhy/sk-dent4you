@@ -1,0 +1,112 @@
+@font-face{font-family:'Albert Sans';font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/albertsans-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Albert Sans';font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/albertsans-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Albert Sans';font-weight:600;font-style:normal;font-display:swap;src:url(../fonts/albertsans-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Albert Sans';font-weight:600;font-style:normal;font-display:swap;src:url(../fonts/albertsans-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Red Hat Display';font-weight:300;font-style:normal;font-display:swap;src:url(../fonts/redhatdisplay-300-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Red Hat Display';font-weight:300;font-style:normal;font-display:swap;src:url(../fonts/redhatdisplay-300-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Red Hat Display';font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/redhatdisplay-400-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Red Hat Display';font-weight:400;font-style:normal;font-display:swap;src:url(../fonts/redhatdisplay-400-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Red Hat Display';font-weight:500;font-style:normal;font-display:swap;src:url(../fonts/redhatdisplay-500-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Red Hat Display';font-weight:500;font-style:normal;font-display:swap;src:url(../fonts/redhatdisplay-500-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}:root{--kr:#fcfbe9;--zl:#dddc00;--zl2:#c3c201;--gr:#34342f;--sd:#666660;--ln:#e2e2d3;--bi:#fff;--r:14px}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:5rem}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--kr);color:var(--gr);font:400 1.0625rem/1.65 'Albert Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+img{max-width:100%;height:auto}
+a{color:inherit}
+.wrap{width:min(72rem,100% - 2.5rem);margin-inline:auto}
+.skip{position:absolute;left:-999px;top:0;background:var(--gr);color:#fff;padding:.6rem 1rem;z-index:99}
+.skip:focus{left:.5rem;top:.5rem}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+h1,h2,h3{font-family:'Red Hat Display','Albert Sans',sans-serif;font-weight:300;line-height:1.08;letter-spacing:-.01em;margin:0 0 1rem}
+h1{font-size:clamp(2.6rem,7vw,5rem)}
+h2{font-size:clamp(1.9rem,4vw,3rem)}
+h3{font-size:1.25rem;font-weight:400}
+.kicker{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:var(--sd);margin:0 0 .9rem}
+.kicker::before{content:"";display:inline-block;width:1.6rem;height:.55rem;background:var(--zl);border-radius:1rem;margin-right:.6rem;vertical-align:.05em}
+.lead{font-size:1.2rem;max-width:36rem;color:var(--sd)}
+.tl{display:inline-block;padding:.8rem 1.5rem;border:1.5px solid var(--gr);border-radius:99px;text-decoration:none;font-weight:600;font-size:.98rem;background:transparent;color:var(--gr);cursor:pointer;font-family:inherit;transition:background .2s,transform .2s}
+.tl:hover{background:var(--gr);color:#fff}
+.tl-hl{background:var(--zl);border-color:var(--zl)}
+.tl-hl:hover{background:var(--gr);border-color:var(--gr);color:#fff}
+:focus-visible{outline:3px solid var(--gr);outline-offset:3px}
+.hlavicka{position:sticky;top:0;z-index:20;background:rgba(252,251,233,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--ln)}
+.hlavicka .wrap{display:flex;align-items:center;gap:1.5rem;min-height:4.2rem;justify-content:space-between}
+.logo img{display:block;height:46px;width:auto}
+.hlavicka nav{display:flex;gap:1.6rem;margin-left:auto}
+.hlavicka nav a{text-decoration:none;font-weight:600;font-size:.95rem;padding:.4rem 0}
+.hlavicka nav a:hover{text-decoration:underline;text-decoration-color:var(--zl2);text-decoration-thickness:3px;text-underline-offset:6px}
+.hlavicka .tl{padding:.55rem 1.2rem}
+.hero{padding:clamp(2.5rem,6vw,4.5rem) 0 clamp(2rem,4vw,3rem)}
+.hero-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:center}
+.akcie{display:flex;flex-wrap:wrap;gap:.8rem;margin:2rem 0 0}
+.hodiny{background:var(--bi);border-radius:var(--r);padding:clamp(1.4rem,3vw,2.2rem);box-shadow:0 1px 0 var(--ln),0 18px 40px -24px rgba(52,52,47,.3)}
+.hodiny h2{font-size:1.35rem;font-weight:400;margin-bottom:1.2rem}
+.pas{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}
+.pas li{display:grid;grid-template-columns:2.2rem 1fr 6.6rem;gap:.8rem;align-items:center}
+.den{font-weight:600}
+.den abbr{text-decoration:none}
+.lista{position:relative;height:1.1rem;border-radius:99px;background:repeating-linear-gradient(90deg,var(--ln) 0 1px,transparent 1px calc(100%/12));background-color:#f3f3e6}
+.lista i{position:absolute;top:0;bottom:0;left:var(--od);width:calc(var(--do) - var(--od));background:var(--zl);border-radius:99px;transform-origin:left;animation:rast .9s cubic-bezier(.2,.7,.2,1) both}
+.pas li:nth-child(2) i{animation-delay:.08s}.pas li:nth-child(3) i{animation-delay:.16s}.pas li:nth-child(4) i{animation-delay:.24s}.pas li:nth-child(5) i{animation-delay:.32s}
+@keyframes rast{from{transform:scaleX(0)}}
+@media (prefers-reduced-motion:reduce){.lista i{animation:none}}
+.cas{font-variant-numeric:tabular-nums;font-size:.95rem;text-align:right}
+.mal{font-size:.88rem;color:var(--sd);margin:1.3rem 0 0}
+.sekce{padding:clamp(3.5rem,8vw,6.5rem) 0}
+.sekce.tmava{background:var(--gr);color:#f4f4ea}
+.sekce.tmava .kicker,.sekce.tmava .lead{color:#c9c9bb}
+.sekce.svetla{background:var(--bi)}
+.akord{margin-top:2.2rem;border-top:1px solid var(--gr)}
+.akord details{border-bottom:1px solid var(--ln)}
+.akord summary{display:grid;grid-template-columns:minmax(10rem,18rem) 1fr 2rem;gap:1rem;align-items:baseline;padding:1.25rem 0;cursor:pointer;list-style:none}
+.akord summary::-webkit-details-marker{display:none}
+.akord summary::after{content:"+";font-size:1.6rem;line-height:1;text-align:right;transition:transform .25s}
+.akord details[open] summary::after{transform:rotate(45deg)}
+.akord summary:hover .nz{text-decoration:underline;text-decoration-color:var(--zl2);text-decoration-thickness:3px;text-underline-offset:6px}
+.cis{font-family:'Red Hat Display',sans-serif;color:var(--sd);font-size:.95rem}
+.nz{font-family:'Red Hat Display',sans-serif;font-size:1.5rem;font-weight:400;line-height:1.15}
+.kr{color:var(--sd)}
+.tx{padding:0 0 1.8rem 0;max-width:50rem}
+.tx p{margin:0 0 .9rem}
+.tech{list-style:none;margin:2.5rem 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1px;background:#52524a;border:1px solid #52524a}
+.tech li{background:var(--gr);padding:1.5rem}
+.tech h3{color:var(--zl)}
+.tech p{margin:0;color:#d8d8cb;font-size:.98rem}
+.dva{display:grid;grid-template-columns:1fr 1fr;gap:clamp(2rem,6vw,5rem);align-items:start}
+.prio{border-left:5px solid var(--zl);padding-left:1rem;margin-top:1.6rem;font-weight:600}
+.foto{width:100%;border-radius:var(--r);display:block}
+.uvod{align-items:center}
+.faq h3{margin-bottom:.6rem}
+.faq details{border-bottom:1px solid var(--ln);padding:.9rem 0}
+.faq summary{cursor:pointer;font-weight:600;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.4rem;line-height:1;transition:transform .25s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq p{margin:.6rem 0 0;color:var(--sd)}
+address{font-style:normal;margin:0 0 2rem;line-height:1.8}
+address a{text-underline-offset:4px}
+.formular{display:grid;gap:1rem;background:var(--bi);padding:clamp(1.3rem,3vw,2rem);border-radius:var(--r);box-shadow:0 1px 0 var(--ln),0 18px 40px -24px rgba(52,52,47,.3)}
+.formular label{display:grid;gap:.35rem;font-weight:600;font-size:.95rem}
+.nap{font-weight:400;color:var(--sd);font-size:.85rem}
+.formular input,.formular textarea{font:inherit;padding:.75rem .9rem;border:1.5px solid #bdbdad;border-radius:10px;background:var(--kr);color:var(--gr)}
+.formular input:focus,.formular textarea:focus{outline:3px solid var(--zl);border-color:var(--gr)}
+.past{position:absolute;left:-9999px}
+.formular button{justify-self:start}
+.formular-stav{margin:0;min-height:1.4em;font-size:.92rem;color:var(--sd)}
+.paticka{border-top:1px solid var(--ln);padding:2rem 0;font-size:.95rem;color:var(--sd)}
+.paticka .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:1.5rem}
+.paticka p{margin:0}
+@media (max-width:60rem){
+ .hero-grid,.dva{grid-template-columns:1fr}
+ .hlavicka nav{display:none}
+ .hlavicka .tl{margin-left:auto}
+ .akord summary{grid-template-columns:1fr 2rem}
+ .akord .kr{grid-column:1;grid-row:2}
+ .akord summary::after{grid-column:2;grid-row:1}
+ .tx{padding-left:0}
+}
+@media (max-width:30rem){
+ .pas li{grid-template-columns:2rem 1fr 5.6rem;gap:.5rem}
+ .tl{padding:.75rem 1.2rem}
+}

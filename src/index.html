@@ -1,0 +1,103 @@
+{% extends "_base.html" %}
+{% set titulek = 'Dent4you – zubná ambulancia Bratislava pri Štrkoveckom jazere' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <p class="kicker">Stomatologická ambulancia · Bratislava, EDEN PARK</p>
+      <h1>Zdravé zuby<br>bez strachu<br>a bez zhonu.</h1>
+      <p class="lead">Moderná ambulancia pri Štrkoveckom jazere. Individuálny prístup, bezbolestné ošetrenie a liečba modernými prístrojmi.</p>
+      <p class="akcie"><a class="tl tl-hl" href="#kontakt">Objednať sa</a> <a class="tl" href="#osetrenia">Naše ošetrenia</a></p>
+    </div>
+    <aside class="hodiny" aria-labelledby="h-hod">
+      <h2 id="h-hod">Ordinačné hodiny</h2>
+      <ol class="pas" role="list">
+        {% for h in data.hodiny %}
+        <li style="--od:{{ ((h.od - 7) / 12 * 100)|round(2) }}%;--do:{{ ((h['do'] - 7) / 12 * 100)|round(2) }}%">
+          <span class="den"><abbr title="{{ h.den }}">{{ h.kr }}</abbr><span class="vh"> {{ h.den }}</span></span>
+          <span class="lista" aria-hidden="true"><i></i></span>
+          <span class="cas">{{ ('%d:%02d' % (h.od|int, ((h.od % 1) * 60)|round|int)) }}–{{ ('%d:%02d' % (h['do']|int, 0)) }}</span>
+        </li>
+        {% endfor %}
+      </ol>
+      <p class="mal">Presný termín dohodneme po vyplnení formulára.</p>
+    </aside>
+  </div>
+</section>
+
+<section class="sekce" id="osetrenia">
+  <div class="wrap">
+    <p class="kicker">Čo robíme</p>
+    <h2>Ošetrenia</h2>
+    <div class="akord">
+      {% for o in data.osetrenia %}
+      <details{% if loop.first %} open{% endif %}>
+        <summary><span class="nz">{{ o.nazev }}</span><span class="kr">{{ o.kratko }}</span></summary>
+        <div class="tx">{% for t in o.text %}<p>{{ t|safe }}</p>{% endfor %}</div>
+      </details>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce tmava" id="technologie">
+  <div class="wrap">
+    <div class="dva uvod">
+      <div>
+        <h2>Moderné technológie</h2>
+        <p class="lead">Kvalitné prístroje robia ošetrenie šetrnejším, presnejším a rýchlejším.</p>
+      </div>
+      {{ img('technologie.jpg', 'Zubárske kreslo v ambulancii', sizes='(min-width: 60rem) 34rem, 100vw', cls='foto') }}
+    </div>
+    <ul class="tech" role="list">
+      {% for t in data.technologie %}<li><h3>{{ t.nazev }}</h3><p>{{ t.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="o-nas">
+  <div class="wrap dva">
+    {{ img('o-nas.jpg', 'Pacientka počas ošetrenia', sizes='(min-width: 60rem) 34rem, 100vw', cls='foto') }}
+    <div>
+      <h2>Moderná stomatologická ambulancia pri Štrkoveckom jazere</h2>
+      <p>Naša ambulancia sídli v komplexe EDEN PARK v Bratislave. Pri vstupnej prehliadke použijeme moderné prístroje a spolu s Vami zostavíme individuálny liečebný plán.</p>
+      <p class="prio">Na čom nám záleží: individuálny prístup, bezbolestné ošetrenie, liečba modernými prístrojmi, materiály najvyššej kvality, precíznosť a príjemné prostredie.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce svetla" id="cennik">
+  <div class="wrap dva">
+    <div>
+      <h2>Vopred viete, čo Vás čaká</h2>
+      <p>Cenník výkonov je zverejnený v priestoroch ambulancie. Pri komplikovanejších výkonoch je samozrejmosťou predbežná cenová kalkulácia.</p>
+      <p>Ambulancia spolupracuje so všetkými zdravotnými poisťovňami. Podmienkou je registrácia v ambulancii a preventívna prehliadka za predchádzajúci kalendárny rok.</p>
+    </div>
+    <div class="faq">
+      <h3>Časté otázky</h3>
+      {% for f in data.faq %}<details><summary>{{ f.o }}</summary><p>{{ f.a }}</p></details>{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Objednajte sa</h2>
+      <address>
+        <strong>Dent4you spol. s r.o.</strong><br>
+        {{ site.kontakt.adresa.ulice }}<br>{{ site.kontakt.adresa.psc }} {{ site.kontakt.adresa.mesto }}<br><br>
+        <a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a><br>
+        <a href="tel:{{ site.kontakt.telefon2|replace(' ', '') }}">{{ site.kontakt.telefon2 }}</a><br>
+        <a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a>
+      </address>
+      <h3>Ako sa k nám dostanete</h3>
+      <p>Parkovať môžete na bočnom parkovisku pred objektom EDEN PARK, alebo 90 minút zadarmo pri Bille, 200 m od ambulancie. Autobusom linky 78 a 66, zastávka Bratislavská župa.</p>
+    </div>
+    <div>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,32 @@
+[
+ {
+  "den": "Pondelok",
+  "kr": "Po",
+  "od": 11.0,
+  "do": 18.0
+ },
+ {
+  "den": "Utorok",
+  "kr": "Ut",
+  "od": 7.5,
+  "do": 15.0
+ },
+ {
+  "den": "Streda",
+  "kr": "St",
+  "od": 7.5,
+  "do": 15.0
+ },
+ {
+  "den": "Štvrtok",
+  "kr": "Št",
+  "od": 11.0,
+  "do": 18.0
+ },
+ {
+  "den": "Piatok",
+  "kr": "Pi",
+  "od": 7.5,
+  "do": 14.0
+ }
+]

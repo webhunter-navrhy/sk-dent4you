@@ -1,0 +1,89 @@
+[
+ {
+  "id": "vstupne-vysetrenie",
+  "nazev": "Vstupné vyšetrenie",
+  "kratko": "Komplexná prehliadka chrupu a okolitých tkanív vrátane laserového vyhľadávania kazu.",
+  "text": [
+   "Vstupné komplexné vyšetrenie v našej ambulancii zahŕňa celkové vyšetrenie chrupu a okolitých tkanív. Okrem klasickej zubnej prehliadky Vás zubný lekár vyšetrí aj pomocou moderných prístrojov, napríklad Diagnodentu – laserového vyhľadávača kazu.",
+   "Diagnodent využíva metódu laserovej fluorescencie a odhalí kaz skôr, ako ho možno nájsť zrakom, lupou alebo röntgenom. Nájde aj kaz v ťažko prístupných miestach, napríklad v medzizubných priestoroch. Vyšetrenie je bezbolestné a na výsledky nečakáte.",
+   "Samozrejmosťou je RTG vyšetrenie zubov, pri ktorom sledujeme nielen stav samotných zubov (skryté kazy, dráždivé, previsnuté výplne), ale aj okolité štruktúry, kosť, skryté zápalové procesy či cysty.",
+   "Lekár s Vami rozoberie závery vyšetrenia, zohľadní všetky individuálne aspekty a zostaví liečebný plán. Odporúči rozsah liečby vrátane časovej náročnosti a finančných nákladov."
+  ]
+ },
+ {
+  "id": "esteticka-stomatológia",
+  "nazev": "Estetická stomatológia",
+  "kratko": "Plán úpravy úsmevu: biele výplne, fazety, korunky, bielenie.",
+  "text": [
+   "K dokonale pravidelnému a žiarivému úsmevu vedie často náročná cesta cez bielenie, strojček, fazety či korunky. Je na nás, aby sme navrhli taký plán liečby, ktorý zodpovedá Vašim požiadavkám a prinesie Vám pocit pekných zubov.",
+   "Preto každá estetická rekonštrukcia chrupu začína podrobnou a zrozumiteľnou diskusiou medzi pacientom a lekárom. Až keď poznáme Vaše prianie, môžeme navrhnúť plán estetickej úpravy zubov.",
+   "Prirodzene vyzerajúce zuby možno dosiahnuť pomocou bielych estetických výplní. V popredí stoja aj ošetrenia keramickými fazetami, celokeramickými a zirkónovými korunkami, mostíkmi a bielenie zubov."
+  ]
+ },
+ {
+  "id": "zachovna-stomatológia",
+  "nazev": "Záchovná stomatológia",
+  "kratko": "Záchrana zuba postihnutého kazom alebo úrazom, estetické výplne.",
+  "text": [
+   "Ako napovedá názov, hlavným cieľom záchovnej stomatológie je zachrániť zub postihnutý napríklad kazom alebo úrazom. Pri ľahšom poškodení, ktoré nezasahuje nervový systém zuba, možno defekt riešiť výplňou.",
+   "Druh výplne určujeme individuálne podľa všetkých špecifík, podľa Vášho priania a vždy s ohľadom na výslednú estetiku a trvácnosť. Použitím estetických materiálov sa snažíme zub zrekonštruovať do pôvodného prirodzeného tvaru. Preparácia kazu sa striktne obmedzuje na postihnutú časť zuba, aby sme čo najviac šetrili nepoškodené zubné tkanivá.",
+   "Ak je poškodenie väčšie a zasahuje nerv, je nutná liečba koreňových kanálikov (endodoncia). Všetky zákroky robíme na želanie pacienta bezbolestne a šetrne v miestnom znecitlivení.",
+   "Každý zub je špecifický a stupeň ochorenia určuje druh liečby. Niekedy je možností viac a na základe konzultácie zvolíme pre Vás najvhodnejší spôsob ošetrenia."
+  ]
+ },
+ {
+  "id": "endodoncia",
+  "nazev": "Endodoncia",
+  "kratko": "Ošetrenie koreňových kanálikov, aby zub nebolo treba vytrhnúť.",
+  "text": [
+   "K ošetreniu koreňových kanálikov pristupujeme pri komplikáciách zubného kazu, zápale zubnej drene, pri náleze zápalového ložiska pod koreňom zuba alebo pri príprave zuba na protetické ošetrenie. Má veľký význam pre ďalší osud zuba.",
+   "Ošetrenie spočíva v dôkladnom vyčistení koreňových kanálikov, odstránení zapálených a infikovaných tkanív, preliečení dezinfekčnou liečivou vložkou a hermetickom vyplnení. Len utesnený kanálik zabráni ďalšiemu prieniku baktérií a komplikáciám, ako sú zápal kosti pri hrote koreňa, cysty alebo pretrvávajúce bolesti.",
+   "Ide o náročné ošetrenie, ktoré treba vykonať čo najdôkladnejšie. Potom je možné zub ošetriť výplňou alebo korunkou bez nutnosti extrakcie."
+  ]
+ },
+ {
+  "id": "protetika",
+  "nazev": "Protetika",
+  "kratko": "Korunky, fazety, mostíky, inlaye a snímateľné náhrady.",
+  "text": [
+   "Protetické náhrady umožňujú nahradiť chýbajúce zuby alebo časť zuba, vylepšiť jeho tvar, farbu, prípadne sklon. Pri rozsiahlych rekonštrukciách chrupu je možné upraviť výšku a typ zhryzu. Liečebný plán je vždy navrhnutý s ohľadom na konkrétneho pacienta, s dôrazom na estetiku a dlhodobú funkčnosť náhrad.",
+   "<strong>Korunky.</strong> Korunkou nahrádzame rozsiahly defekt zuba, ktorý je prekrytý v celom rozsahu. Je to voľba tam, kde už nie je možná výplň, inlay alebo onlay pre rozsiahlu stratu zubných tkanív.",
+   "<strong>Fazety.</strong> Keramická fazeta je tenký plátok keramiky, ktorým môžeme meniť tvar, farbu a postavenie jedného zuba alebo upraviť celý úsmev. Pocitovo je rovnaká ako vlastný zub a voľným okom je nerozpoznateľná. Cementuje sa na jemne obrúsenú plochu predných zubov, pri minimálnom zásahu do štruktúry zuba (0,5–1 mm).",
+   "<strong>Mostíky.</strong> Riešenie pre náhradu jedného alebo viacerých chýbajúcich zubov. Susedné zuby sa obrúsia, zhotovia sa odtlačky a zubný technik vyrobí náhradu, ktorá sa pevne nacementuje.",
+   "<strong>Inlay, onlay.</strong> Keramické alebo kompozitné náhrady, ktoré rekonštruujú rozsiahlejšie defekty zadných zubov. Sú plynulým prechodom medzi jednoduchou výplňou a korunkou a vhodnou alternatívou k rozsiahlym amalgámovým výplniam.",
+   "<strong>Snímateľné náhrady.</strong> Ak nie je možná fixná náhrada, zhotovíme snímateľnú, ktorá sa uchytáva na zostávajúce zuby. Volíme riešenie, ktoré zabezpečí stabilitu pri používaní, komfort a estetiku."
+  ]
+ },
+ {
+  "id": "dentalna-hygiena",
+  "nazev": "Dentálna hygiena",
+  "kratko": "Profesionálne čistenie zubov, Airflow, odporúčané každých 6 mesiacov.",
+  "text": [
+   "Profesionálne čistenie zubov je dôležitou súčasťou prevencie kazu a parodontálnych ochorení. Neznamená to, že nie je potrebná denná hygiena (kefka, dentálna niť).",
+   "Už za 1 až 2 dni sa na zuboch tvorí plak (biofilm) s veľkým množstvom baktérií. Postupom času stvrdne a mení sa na zubný kameň, a to aj napriek domácej starostlivosti, najmä na ťažko dostupných miestach. Preto odporúčame profesionálne čistenie každých 6 mesiacov.",
+   "Odstránime všetky, aj skryté povlaky (plak, zubný kameň) ručnými nástrojmi a ultrazvukom. Mäkké povlaky a pigmentácie z kávy či čaju odstránime metódou Airflow a/alebo čistiacou pastou, vrátane koruniek a fixných náhrad. Citlivé plôšky ošetríme a aplikujeme fluoridové prípravky na posilnenie skloviny.",
+   "Po čistení sú odstránené povlaky, ktoré zubná kefka nedosiahne, zuby majú prirodzenú, svetlejšiu farbu a v ústach je sviežejší a hladší pocit."
+  ]
+ },
+ {
+  "id": "bielenie-zubov",
+  "nazev": "Bielenie zubov",
+  "kratko": "Bielenie studeným svetlom, jedno sedenie približne 1 hodinu.",
+  "text": [
+   "Ste spokojný s výzorom svojich zubov? Trápi Vás sfarbenie z fajčenia, kávy alebo čaju? Proces využíva bieliace prostriedky na báze peroxidu vodíka aktivované svetlom a vedie k žiarivému úsmevu bez poškodenia skloviny.",
+   "Dosiahnuť sa dá už počas jedného sedenia, ktoré trvá približne 1 hodinu. Na zuby sa aplikuje gél s peroxidom vodíka, ktorý sa špeciálnou bieliacou lampou aktivuje. Po ošetrení dostanete špeciálnu zubnú pastu, ktorá regeneruje sklovinu a znižuje prípadnú prechodnú citlivosť.",
+   "Zosvetlenie je možné o 5–14 odtieňov. Každý prípad je individuálny, účinok závisí od pôvodnej farby zubov a typu škvŕn. Efekt trvá približne 2 roky podľa dispozícií a stravovania.",
+   "Technológia „studeného“ svetla je bezpečná a nedráždi zubnú drenu. Niektorí ľudia môžu pociťovať mierne podráždenie ďasien alebo prechodnú citlivosť, ktoré krátko po bielení odoznejú. Prvých 48 hodín po zákroku sa odporúča vyhnúť sa cigaretám, káve, čaju, koly, červenému vínu a iným farebným nápojom a pokrmom."
+  ]
+ },
+ {
+  "id": "prevencia",
+  "nazev": "Prevencia",
+  "kratko": "Pravidelné prehliadky raz za rok, ideálne raz za 6 mesiacov.",
+  "text": [
+   "Mnoho ľudí navštívi zubného lekára, až keď cíti problém. Myslia si, že tak ušetria, no z praxe vieme, že býva opak pravdou. Dnešným trendom v stomatológii je prevencia.",
+   "Väčšine zubných problémov možno pri spolupráci so zubným lekárom a správnych hygienických návykoch predísť: pravidelnými preventívnymi prehliadkami, optimálne raz za rok, prípadne raz za 6 mesiacov.",
+   "Pri pravidelnom sledovaní vie lekár zachytiť nežiaduce zmeny chrupu skôr, než príde bolesť alebo strata zuba. Počiatočný kaz sa lieči omnoho lepšie než silne poškodený zub. Pri prehliadke skontrolujeme stav chrupu a odporúčime, ako sa o neho správne starať."
+  ]
+ }
+]

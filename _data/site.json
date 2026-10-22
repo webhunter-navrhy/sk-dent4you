@@ -1,0 +1,62 @@
+{
+  "slug": "sk-dent4you",
+  "nazev": "Dent4you",
+  "url": "https://webhunter-navrhy.github.io/sk-dent4you/",
+  "base": "/sk-dent4you/",
+  "lang": "sk",
+  "popis": "Stomatologická ambulancia Dent4you v Bratislave pri Štrkoveckom jazere: vstupné vyšetrenie, záchovná a estetická stomatológia, dentálna hygiena, bielenie zubov.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "og-dent4you.png",
+  "logo": "logo.png",
+  "theme_color": "#dddc00",
+  "typ": "Dentist",
+  "ico": "45897646",
+  "kontakt": {
+    "email": "info@dent4you.sk",
+    "telefon": "+421 2 555 642 62",
+    "telefon2": "+421 948 214 130",
+    "adresa": {
+      "ulice": "Drieňová 1/H",
+      "psc": "831 04",
+      "mesto": "Bratislava",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [
+    "Mo 11:00-18:00",
+    "Tu 07:30-15:00",
+    "We 07:30-15:00",
+    "Th 11:00-18:00",
+    "Fr 07:30-14:00"
+  ],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Objednanie z webu dent4you.sk"
+  },
+  "nav": [
+    {
+      "text": "Ošetrenia",
+      "href": "#osetrenia"
+    },
+    {
+      "text": "Technológie",
+      "href": "#technologie"
+    },
+    {
+      "text": "O nás",
+      "href": "#o-nas"
+    },
+    {
+      "text": "Cenník",
+      "href": "#cennik"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}
